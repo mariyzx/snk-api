@@ -10,7 +10,7 @@ function Titans() {
       <List>
         {titans.map((a) => (
           <div key={a.id}>
-            {/* need to fix image */}
+            <img src={a.picture} alt="" />
             <p>Name: {a.name}</p>
             <p>Bio: {a.description}</p>
             <p>Height: {a.height}m</p>
