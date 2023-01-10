@@ -10,7 +10,11 @@ routes.get('/', (req, res) => {
 
 routes.get('/characters', CharacterController.getAll);
 
+routes.get('/characters/:id', CharacterController.getById);
+
 routes.get('/titans', TitanController.getAll);
+
+routes.get('/titans/:id', TitanController.getById);
 
 
 module.exports = routes;
