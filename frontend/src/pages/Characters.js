@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import { Context } from "../context/Context";
-import { ListCharacters, MainCharacters } from "../styles/Characters";
+import { List, Main } from "../styles/Info";
 
 function Characters() {
   const {chars} = useContext(Context);
   return (
-    <MainCharacters>
+    <Main>
       <h1>Characters</h1>
-      <ListCharacters>
+      <List>
         { chars.map((a) => (
           <div key={a.id}>
             <img src={a.picture} alt="" />
@@ -17,8 +17,8 @@ function Characters() {
             <p>Weight: {a.weight}kg</p>
           </div>
         ))}
-      </ListCharacters>
-    </MainCharacters>
+      </List>
+    </Main>
   )
 }
 
