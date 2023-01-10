@@ -18,5 +18,10 @@ export const GlobalStyle = createGlobalStyle`
     min-width: 100%;
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
+    background-image: url('https://i.pinimg.com/originals/5e/95/f3/5e95f341dd28d5902503506e3f21ee8f.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
 }
 `

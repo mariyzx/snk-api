@@ -13,10 +13,12 @@ export const List = styled.div`
   align-items: stretch;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 
 
   div {
-    width: 30%;
+    width: 40%;
     margin: 10px;
     text-align: center;
     display: flex;
