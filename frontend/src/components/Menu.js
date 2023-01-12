@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Menu() {
   return (
     <div>
-      <Link to="/docs">Docs</Link>
+      <a href="http://localhost:3333/docs" target="_blank" rel="noreferrer">Docs</a>
       <Link to="/characters">Characters</Link>
       <Link to="/titans">Titans</Link>
       <Link to="/about">About</Link>
