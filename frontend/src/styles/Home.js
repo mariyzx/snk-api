@@ -36,8 +36,8 @@ export const Main = styled.div`
   a:hover {
     color: white;
   }
-  // animista
 
+  // animista
   @keyframes focus-in-contract {
     0% {
       letter-spacing: 2px;

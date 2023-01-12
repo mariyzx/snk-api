@@ -10,27 +10,46 @@ export const Main = styled.div`
 export const List = styled.div`
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 2rem;
-
+  margin-top: 1rem;
+  gap: 5px;
 
   div {
-    width: 40%;
-    margin: 10px;
+    min-height: min-content;
+    width: 45%;
     text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    justify-content: space-around;
-    gap: 1rem;
-    height: 500px;
+    height: 550px;
+    gap: 0.3rem;
+  }
 
-    img {
-      width: 220px;
-      height: 320px;
+  img {
+    width: 200px;
+  }
+
+  img:hover {
+    box-shadow: 3px 3px 5px 0px rgba(173,168,173,1);
+    transition: box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 700px) {
+    flex-direction: column;
+    gap: 1rem;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 0.5rem;
+      justify-content: center;
+      align-items: center;
+      width: 50%;
+      height: max-content;
     }
   }
 `
