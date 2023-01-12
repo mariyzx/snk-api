@@ -6,7 +6,7 @@ function Menu() {
       <Link to="/docs">Docs</Link>
       <Link to="/characters">Characters</Link>
       <Link to="/titans">Titans</Link>
-      <Link to="/about">About me</Link>
+      <Link to="/about">About</Link>
     </div>
   )
 }
