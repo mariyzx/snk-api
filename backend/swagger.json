@@ -14,7 +14,7 @@
     { "name": "titans", "description": "Endpoint for titans"}
   ],
   "servers": [{
-    "url": "http://localhost:3333"
+    "url": "https://snk-api-production-c1d2.up.railway.app"
   }],
   "paths": {
     "/characters": {

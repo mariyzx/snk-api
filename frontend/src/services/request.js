@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: "http://localhost:3333/",
+  baseURL: "https://snk-api-production-c1d2.up.railway.app/",
 });
 
 export default api;
