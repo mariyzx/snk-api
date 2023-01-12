@@ -12,7 +12,7 @@ module.exports = {
 
     const titan = await Titan.findByPk(id);
 
-    if (!titan) return req.status(404).json({message: 'Titan not found!'});
+    if (!titan) return res.status(404).json({message: 'Titan not found!'});
 
     return res.json(titan);
   }
