@@ -8,7 +8,7 @@ function About() {
       <div>
         <p>Hello there! My name is Mariana, i'm 21 years old and i'm currently learning back-end!</p>
         <p>This front-end is consuming an API created by me, using mostly NodeJS, Sequelize and Express.</p>
-        <p>This is my first full-stack project done by myself, feel free to give me a feedback.</p>
+        <p>This is my first full-stack project, feel free to give me a feedback.</p>
       </div>
       <ListAbout>
         <a href="https://github.com/mariyzx/" target="_blank" rel="noreferrer"><BsGithub size={30} /></a>

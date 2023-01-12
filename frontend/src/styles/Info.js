@@ -28,11 +28,12 @@ export const List = styled.div`
   }
 
   img {
-    width: 200px;
+    width: 210px;
+    height: 300px;
   }
 
   img:hover {
-    box-shadow: 3px 3px 5px 0px rgba(173,168,173,1);
+    box-shadow: 3px 3px 5px 0px rgba(173,168,173,390);
     transition: box-shadow 0.3s ease-in-out;
     cursor: pointer;
   }
